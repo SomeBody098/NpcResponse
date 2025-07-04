@@ -13,9 +13,9 @@ public class MainController {
 
     private final AiAssistant aiAssistant;
 
-    /*
-    It is a test connecting the game (Trust a deadly game) with a server
-     */
+    /**
+    *It is a test connecting the game (Trust a deadly game) with a server
+     * **/
     @GetMapping("/test")
     public String test() {
         return "successfully";
