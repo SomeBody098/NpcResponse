@@ -1,12 +1,11 @@
 package org.npc.npcresponse.controller;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.npc.npcresponse.model.AiAssistant;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+@Slf4j
 @RestController
 @RequiredArgsConstructor
 public class MainController {
@@ -21,8 +20,9 @@ public class MainController {
         return "successfully";
     }
 
-    @PostMapping("/response/{args}")
-    public String response(@PathVariable String args) {
+    @PostMapping("/response")
+    public String response(@RequestBody String args) {
+        log.info("Been get a request: " + args);
         return aiAssistant.generateResponse(args);
     }
 

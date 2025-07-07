@@ -1,0 +1,33 @@
+{
+  "properties": [
+    {
+      "name": "spring.ai.ollama",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.ollama."
+    },
+    {
+      "name": "spring.application",
+      "type": "java.lang.String",
+      "description": "Description for spring.application."
+    },
+    {
+      "name": "spring.ai.ollama.model",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.ollama.model."
+    },
+    {
+      "name": "spring.application.http.encoding.charset.enabled",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.http.encoding.charset.enabled."
+    },
+    {
+      "name": "spring.application.servlet.encoding.force-response",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.servlet.encoding.force-response."
+    },
+    {
+      "name": "spring.application.servlet.encoding.charset",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.servlet.encoding.charset."
+    }
+  ] }

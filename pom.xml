@@ -27,6 +27,8 @@
         <url/>
     </scm>
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <java.version>17</java.version>
         <lombok.version>1.18.38</lombok.version>
         <spring-ai.version>1.0.0</spring-ai.version>

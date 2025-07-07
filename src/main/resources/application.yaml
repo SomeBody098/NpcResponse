@@ -2,6 +2,11 @@ spring:
   application:
     name: NpcResponse
 
+    servlet:
+      encoding:
+        force-response: true
+        charset: UTF-8
+
   ai:
     ollama:
       embedding:
